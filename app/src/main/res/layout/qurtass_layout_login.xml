@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:layout_margin="@dimen/_20sdp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/header13x"
+        android:onClick="hidekeyboard">
+        <ImageView
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:background="@drawable/logo3x"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Please log-in to continue"
+            android:textColor="@color/colorPrimaryDark"/>
+        <RelativeLayout
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners_white"
+            android:layout_marginTop="@dimen/_20sdp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:id="@+id/etEmail"
+                android:hint="Email Adress"
+                android:background="@null"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/v1"
+                android:background="@color/md_grey_300"
+                android:layout_below="@+id/etEmail"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:id="@+id/etPassword"
+                android:layout_below="@+id/v1"
+                android:hint="Password"
+                android:background="@null"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:inputType="textPassword"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot?"
+                android:textColor="@color/high_blue_900"
+                android:textStyle="bold"
+                android:layout_below="@+id/etEmail"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"/>
+        </RelativeLayout>
+        <Button
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/rounded_corners_primery"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="Log In"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryWhite"
+            android:textStyle="bold"
+            android:id="@+id/btnLogin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Don't have An Account?"
+            android:layout_marginTop="@dimen/_20sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign-Up"
+            android:textColor="@color/high_blue_900"
+            android:textStyle="bold"
+            style="@style/Hyperlink"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:id="@+id/tvsignUp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

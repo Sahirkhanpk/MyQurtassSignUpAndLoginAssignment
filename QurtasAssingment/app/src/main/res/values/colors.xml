@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>-->
+
+
+
+    <!-- <color name="colorPrimary">#f44336</color>     #fffdd0-->
+    <color name="colorPrimary">#F44236</color>
+    <color name="colorPrimaryWhite">#FFFFFF</color>
+    <!-- <color name="colorPrimaryDark">#c62828</color>-->
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFC400</color>
+    <color name="high_blue_900">#9966FF</color>
+
+    <color name="categories_icon">#4fac4d</color>
+    <color name="add_to_cart_button">#4fac4d</color>
+    <color name="items_background">#edeff2</color>
+    <color name="colorTrans">#a0ffffff</color>
+    <color name="gray">#f7f6f2</color>
+    <color name="my_spinner_text_color">#808080</color>
+
+
+    <drawable name="rating_selected">#000</drawable>
+    <drawable name="rating_unselected">#D3D3D3</drawable>
+
+
+
+
+    <!--farm to home colors end here-->
+
+
+    <color name="black">#212121</color>
+    <color name="black_disabled_text">#61000000</color>
+
+    <color name="white">#FAFAFA</color>
+    <color name="white_primary_text">#FFF</color>
+
+    <!--reds-->
+    <color name="md_red_500">#F44336</color>
+
+    <!-- pinks -->
+
+    <!-- purples -->
+
+    <!-- deep purples -->
+
+    <!-- indigo -->
+
+    <!--blue-->
+    <color name="md_blue_900">#0D47A1</color>
+
+
+    <!-- light blue-->
+
+    <!-- cyan -->
+
+    <!-- teal -->
+
+    <!-- green -->
+    <color name="md_green_50">#E8F5E9</color>
+    <color name="md_green_500">#4CAF50</color>
+    <color name="md_green_600">#43A047</color>
+    <color name="fresh_green_100">#ccff36</color>
+
+    <!--light green-->
+
+    <!-- lime-->
+
+    <!--yellow -->
+
+    <!--amber-->
+
+    <!--orange-->
+    <color name="md_orange_500">#FF9800</color>
+
+    <!--deep orange-->
+
+    <!--brown -->
+
+    <!--grey-->
+    <color name="md_grey_100">#F5F5F5</color>
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="md_grey_300">#E0E0E0</color>
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_white_1000">#ffffff</color>
+    <color name="md_sky_blue_1000">#87CEEB</color>
+</resources>
